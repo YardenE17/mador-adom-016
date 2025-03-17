@@ -11,11 +11,13 @@ under "/plugins/<your-plug-in>/..." add your plug-in files.
 ```
 ### .py
 The .py file must follow the next instructions:
+ * make sure you log every operation using the logger which is a must argument for every main
 ```python
-def main(arg1: str, arg2: int):
+def main(arg1: str, arg2: int, logger):
     """
     Plugin's main function. Receives arguments as named parameters via kwargs.
     """
+    logger.info(msg)
     func()
     return ...
 
