@@ -1,0 +1,8 @@
+{
+    "fields": [
+        {"name": "host"},
+        {"name": "port"},
+        {"name": "username"},
+        {"name": "password"}
+    ]
+}
