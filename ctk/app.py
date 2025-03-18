@@ -141,8 +141,3 @@ class App(ctk.CTk):
 
         run_button = ctk.CTkButton(tab, text="Run", command=run_script)
         run_button.pack(pady=5)
-
-
-if __name__ == "__main__":
-    app = App()
-    app.mainloop()
